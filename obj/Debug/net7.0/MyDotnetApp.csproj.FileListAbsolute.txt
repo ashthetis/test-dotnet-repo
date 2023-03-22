@@ -1,0 +1,15 @@
+/Users/mc98090/Desktop/Dev/MyDotnetApp/bin/Debug/net7.0/MyDotnetApp
+/Users/mc98090/Desktop/Dev/MyDotnetApp/bin/Debug/net7.0/MyDotnetApp.deps.json
+/Users/mc98090/Desktop/Dev/MyDotnetApp/bin/Debug/net7.0/MyDotnetApp.runtimeconfig.json
+/Users/mc98090/Desktop/Dev/MyDotnetApp/bin/Debug/net7.0/MyDotnetApp.dll
+/Users/mc98090/Desktop/Dev/MyDotnetApp/bin/Debug/net7.0/MyDotnetApp.pdb
+/Users/mc98090/Desktop/Dev/MyDotnetApp/obj/Debug/net7.0/MyDotnetApp.csproj.AssemblyReference.cache
+/Users/mc98090/Desktop/Dev/MyDotnetApp/obj/Debug/net7.0/MyDotnetApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mc98090/Desktop/Dev/MyDotnetApp/obj/Debug/net7.0/MyDotnetApp.AssemblyInfoInputs.cache
+/Users/mc98090/Desktop/Dev/MyDotnetApp/obj/Debug/net7.0/MyDotnetApp.AssemblyInfo.cs
+/Users/mc98090/Desktop/Dev/MyDotnetApp/obj/Debug/net7.0/MyDotnetApp.csproj.CoreCompileInputs.cache
+/Users/mc98090/Desktop/Dev/MyDotnetApp/obj/Debug/net7.0/MyDotnetApp.dll
+/Users/mc98090/Desktop/Dev/MyDotnetApp/obj/Debug/net7.0/refint/MyDotnetApp.dll
+/Users/mc98090/Desktop/Dev/MyDotnetApp/obj/Debug/net7.0/MyDotnetApp.pdb
+/Users/mc98090/Desktop/Dev/MyDotnetApp/obj/Debug/net7.0/MyDotnetApp.genruntimeconfig.cache
+/Users/mc98090/Desktop/Dev/MyDotnetApp/obj/Debug/net7.0/ref/MyDotnetApp.dll
