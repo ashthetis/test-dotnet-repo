@@ -17,3 +17,13 @@ jobs:
     steps:
       - name: Check for dockerenv file
         run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
+  node-docker:
+      runs-on: ubuntu-latest
+      container:
+        image: node:14.15.0-alpine3.12
+      steps:
+           - name: Log the node version
+             run: |
+               node -v
+               cat /etc/os-release  
+
