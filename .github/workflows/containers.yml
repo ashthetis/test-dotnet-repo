@@ -3,10 +3,21 @@ on:
   push:
     branches: [ main ]
 jobs:
+
+  job0:
+    runs-on: ubuntu-latest
+    outputs:
+      image: ${{ steps.set_image.outputs.image }}
+    steps:
+      - id: set_image
+        run: echo "::set-output name=image::node:14.15.0-alpine3.12"
+
+
   container-test-job:
+    needs: job0
     runs-on: ubuntu-latest
     container:
-      image: node:14.16
+      image: ${{ needs.job0.outputs.image }}
       env:
         NODE_ENV: development
       ports:
