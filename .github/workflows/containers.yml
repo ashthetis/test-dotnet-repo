@@ -28,6 +28,7 @@ jobs:
     steps:
       - name: Check for dockerenv file
         run: |
+          echo ${{ needs.job0.outputs.image }}
           (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
           node -v
           cat /etc/os-release  
