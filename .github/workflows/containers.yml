@@ -12,7 +12,7 @@ jobs:
       - id: set_image
         run: |
           #echo "::set-output name=image::node:14.15.0-alpine3.12"
-          echo "image=$var.TEST/node:14.15.0-alpine3.12" >> $GITHUB_OUTPUT
+          echo "image=${{ vars.TEST }}/node:14.15.0-alpine3.12" >> $GITHUB_OUTPUT
 
 
   container-test-job:
