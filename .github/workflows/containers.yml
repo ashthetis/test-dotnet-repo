@@ -12,21 +12,21 @@ jobs:
       - id: set_image
         run: |
           #echo "::set-output name=image::node:14.15.0-alpine3.12"
-          echo "image=node:14.15.0-alpine3.12" >> $GITHUB_OUTPUT
+          echo "image=$var.TEST/node:14.15.0-alpine3.12" >> $GITHUB_OUTPUT
 
 
   container-test-job:
     needs: job0
     runs-on: ubuntu-latest
-    container:
-      image: ${{ needs.job0.outputs.image }}
-      env:
-        NODE_ENV: development
-      ports:
-        - 80
-      volumes:
-        - my_docker_volume:/volume_mount
-      options: --cpus 1
+#     container:
+#       image: ${{ needs.job0.outputs.image }}
+#       env:
+#         NODE_ENV: development
+#       ports:
+#         - 80
+#       volumes:
+#         - my_docker_volume:/volume_mount
+#       options: --cpus 1
     steps:
       - name: Check for dockerenv file
         run: |
