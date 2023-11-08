@@ -5,7 +5,7 @@ on:
 jobs:
 
   job0:
-    runs-on: [linux,self-hosted,x64]
+    runs-on: self-hosted
     outputs:
       image: ${{ steps.set_image.outputs.image }}
     steps:
