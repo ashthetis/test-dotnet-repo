@@ -5,7 +5,7 @@ on:
 jobs:
 
   job0:
-    runs-on: self-hosted
+    runs-on: ProjectX
     outputs:
       image: ${{ steps.set_image.outputs.image }}
     steps:
