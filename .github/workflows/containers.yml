@@ -40,6 +40,7 @@ jobs:
         image: node:14.15.0-alpine3.12
       steps:
            - name: Log the node version
+           
              run: |
                node -v
                cat /etc/os-release  
