@@ -5,7 +5,7 @@ on:
 jobs:
 
   job0:
-    runs-on: default_
+    runs-on: default
     outputs:
       image: ${{ steps.set_image.outputs.image }}
     steps:
