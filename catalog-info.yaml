@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Ash-Repo-dotnetrepo
+  name: dotnetrepo
   description: |
     This is a test repository from Ash github account
   links:
